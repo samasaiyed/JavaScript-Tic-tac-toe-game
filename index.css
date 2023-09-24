@@ -1,0 +1,104 @@
+body
+{
+	background-color: whitesmoke;
+}
+.main{
+	text-align: center;
+}
+h1{
+	color: darkviolet;
+	margin-bottom: -5px;
+}
+p{
+	margin-bottom: -10px;
+	font-family: Verdana,Geneva, 
+                    Tahoma, sans-serif;
+    color: purple;
+}
+.user_input{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row{
+	display: flex;
+}
+.cell{
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	text-align: center;
+	background: lightcyan;
+	cursor: pointer;
+
+}
+.cell:active{
+	outline: none;
+}
+/* 3*3 grid */
+#c1{
+	border-bottom: 1px solid lightseagreen;
+	border-right: 1px solid lightseagreen;
+}
+#c2{
+	border-bottom: 1px solid lightseagreen;
+	border-right: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
+}
+#c3{
+	border-bottom: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
+}
+#c4{
+	border-top: 1px solid lightseagreen;
+	border-bottom: 1px solid lightseagreen;
+	border-right: 1px solid lightseagreen;
+}
+#c5{
+	border: 1px solid lightseagreen;
+}
+#c6{
+	border-top: 1px solid lightseagreen;
+	border-bottom: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
+}
+#c7{
+	border-top: 1px solid lightseagreen;
+	border-right: 1px solid lightseagreen;
+}
+#c8{
+	border-top: 1px solid lightseagreen;
+	border-right: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
+}
+#c9{
+	border-top: 1px solid lightseagreen;
+	border-left: 1px solid lightseagreen;
+}
+
+/* reset button  */
+#reset{
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 2px solid hotpink;
+	margin-left: auto;
+	border-radius: 8px;
+	background: darkviolet;
+	color: black;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: Verdana,Geneva, 
+                    Tahoma, sans-serif;
+}
+
+#result{
+	font-family: Verdana,Geneva, 
+                    Tahoma, sans-serif;
+    color: purple;
+    font-size: 20px;
+}
